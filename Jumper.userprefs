@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\World\WorldSectionManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Walls\WallSpawner.cs" Line="32" Column="40" />
+      <File FileName="Assets\Scripts\Walls\WallPooling.cs" Line="127" Column="1" />
+      <File FileName="Assets\Scripts\World\WorldSectionManager.cs" Line="21" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\diogo_000\Documents\GitHub\Jumper\Assets\Scripts\Walls\WallPooling.cs" line="123" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
