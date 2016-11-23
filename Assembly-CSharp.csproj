@@ -45,10 +45,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
-     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
-     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
-     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+     <Compile Include="Assets\Asset Store\Cartoon Heavy Weights\CementBlock\BlockBreaker.cs" />
+     <Compile Include="Assets\Asset Store\Cartoon Heavy Weights\Test Scene Resources\Test Scene Scripts\DropWeight.cs" />
+     <Compile Include="Assets\Asset Store\Cartoon Heavy Weights\Test Scene Resources\Test Scene Scripts\WallCreator.cs" />
+     <Compile Include="Assets\Asset Store\Elemental Free\Scripts\GE_ELF_Demo.cs" />
+     <Compile Include="Assets\Asset Store\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCamera.cs" />
+     <Compile Include="Assets\Asset Store\GE Common Assets\GE Orbit Camera\Scripts\GE_OrbitCameraUI.cs" />
+     <Compile Include="Assets\Asset Store\GE Common Assets\GE Toggle Full Screen\Scripts\GE_ToggleFullScreenUI.cs" />
+     <Compile Include="Assets\Asset Store\GE Common Assets\Scripts\GE_UIResponder.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo00.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo01.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo02.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo03.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo04.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo05.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo06.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo07.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_Demo08.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
+     <Compile Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+     <Compile Include="Assets\Asset Store\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
+     <Compile Include="Assets\Asset Store\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
+     <Compile Include="Assets\Asset Store\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
+     <Compile Include="Assets\Asset Store\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
+     <Compile Include="Assets\FireTrapBehaviour.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Hazards\FallingHazardSpawner.cs" />
      <Compile Include="Assets\Scripts\Hazards\HazardPool.cs" />
@@ -61,22 +82,27 @@
      <Compile Include="Assets\Scripts\Walls\WallPooling.cs" />
      <Compile Include="Assets\Scripts\Walls\WallSpawner.cs" />
      <Compile Include="Assets\Scripts\World\WorldSectionManager.cs" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
-     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
-     <None Include="Assets\ProCore\ProBuilder\About\changelog.txt" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
-     <None Include="Assets\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
-     <None Include="Assets\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
-     <None Include="Assets\ProCore\ProBuilder\readme.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\pb_TransparentOverlay.shader" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\About\changelog.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\DiffuseVertexColor.shader" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\pb_FaceHighlight.shader" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\UnlitSolidColor.shader" />
+     <None Include="Assets\Asset Store\Cartoon Heavy Weights\readme.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\DiffuseTextureBlend.shader" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\pb_StandardVertexColor.shader" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\pb_HideVertices.shader" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\pb_UnlitVertexColor.shader" />
+     <None Include="Assets\Asset Store\Elemental Free\Readme.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\About\pc_AboutEntry_ProBuilder.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\Shader\pb_VertexShader.shader" />
+     <None Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\Readme.txt" />
+     <None Include="Assets\Asset Store\GE Common Assets\Readme.txt" />
+     <None Include="Assets\Asset Store\GUI Animator\GUI Animator FREE\!How to.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\readme.txt" />
      <None Include="Assets\Raw Models and Animations\Mr. Mo Base Character\Readme.txt" />
-     <None Include="Assets\PowerUps Vol 1 Free\Readme.txt" />
-     <None Include="Assets\ProCore\ProBuilder\About\Credits.txt" />
+     <None Include="Assets\Asset Store\PowerUps Vol 1 Free\Readme.txt" />
+     <None Include="Assets\Asset Store\ProCore\ProBuilder\About\Credits.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -84,16 +110,22 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
- <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/Asset Store/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps-Unity5">
- <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/Asset Store/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="KDTree">
- <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+ <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/Asset Store/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
  </Reference>
  <Reference Include="Triangle">
- <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
+ <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/Asset Store/ProCore/ProBuilder/Classes/ClassesLib/Triangle.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/Asset Store/GUI Animator/Common/Plugins/GETween.dll</HintPath>
+ </Reference>
+ <Reference Include="GUIAnimatorFREE">
+ <HintPath>C:/Users/diogo_000/Documents/GitHub/Jumper/Assets/Asset Store/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,6 +5,8 @@ Project("{543088B6-77BC-3CC1-5E68-BC241788AC82}") = "Jumper", "Assembly-CSharp.c
 EndProject
 Project("{543088B6-77BC-3CC1-5E68-BC241788AC82}") = "Jumper", "Assembly-CSharp-Editor.csproj", "{43E7E6EE-B262-4949-9973-229D64DC5E67}"
 EndProject
+Project("{543088B6-77BC-3CC1-5E68-BC241788AC82}") = "Jumper", "Assembly-UnityScript.unityproj", "{618E15AC-AE26-2244-78B8-818F68B36E05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{43E7E6EE-B262-4949-9973-229D64DC5E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E7E6EE-B262-4949-9973-229D64DC5E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E7E6EE-B262-4949-9973-229D64DC5E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618E15AC-AE26-2244-78B8-818F68B36E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618E15AC-AE26-2244-78B8-818F68B36E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618E15AC-AE26-2244-78B8-818F68B36E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618E15AC-AE26-2244-78B8-818F68B36E05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
